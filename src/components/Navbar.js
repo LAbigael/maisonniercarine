@@ -12,8 +12,8 @@ export default function Navbar(props) {
           " flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg"
         }
       >
-        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
-          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <div className="container px-4 mx-auto flex flex-row  justify-between">
+          <div className="w-full relative flex justify-between">
             <a
               className={
                 (props.transparent ? "text-white" : "text-gray-800") +
@@ -22,26 +22,6 @@ export default function Navbar(props) {
             >
               Cabinet de sage femme
             </a>
-            <button
-              className="text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-              type="button"
-              onClick={() => setNavbarOpen(!navbarOpen)}
-            >
-              <i
-                className={
-                  (props.transparent ? "text-white" : "text-gray-800") +
-                  " fas fa-bars"
-                }
-              ></i>
-            </button>
-          </div>
-          <div
-            className={
-              "lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none" +
-              (navbarOpen ? " block rounded shadow-lg" : " hidden")
-            }
-            id="example-navbar-warning"
-          >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="flex items-center">
                 <a

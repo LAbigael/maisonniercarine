@@ -26,7 +26,7 @@ export default function Landing() {
           >
             <span
               id="blackOverlay"
-              className="w-full h-full absolute opacity-50 bg-black"
+              className="w-full h-full absolute opacity-75 bg-black"
             ></span>
           </div>
           <div className="container relative mx-auto">
@@ -34,10 +34,10 @@ export default function Landing() {
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
                   <h1 className="text-white font-semibold text-4xl">
-                    Votre accompagnement commence ici.
+                     Carine Maisonnier<br/> sage-femme libérale à Morcenx.
                   </h1>
                   <p className="mt-4 text-lg text-gray-300">
-                    Carine Maisonnier, sage-femme libérale à Morcenx.
+                    Votre accompagnement commence ici.
                   </p>
                 </div>
               </div>
@@ -68,7 +68,10 @@ export default function Landing() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap">
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
-                <a href="#follow" className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg hover:bg-purple-500 cursor-pointer hover:text-white">
+                <a
+                  href="#follow"
+                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg hover:bg-purple-500 cursor-pointer hover:text-white"
+                >
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
                       🤰
@@ -97,7 +100,10 @@ export default function Landing() {
               </div>
 
               <div className="pt-6 w-full md:w-4/12 px-4 text-center">
-                <a href="#rehab" className="relative flex flex-col min-w-0 hover:bg-purple-500 cursor-pointer hover:text-white break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                <a
+                  href="#rehab"
+                  className="relative flex flex-col min-w-0 hover:bg-purple-500 cursor-pointer hover:text-white break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+                >
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
                       🌱
@@ -110,13 +116,16 @@ export default function Landing() {
               </div>
             </div>
             <div className="flex flex-wrap">
-              <a href="#post" className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+              <a
+                href="#post"
+                className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center"
+              >
                 <div className="relative flex flex-col min-w-0 break-words bg-white hover:bg-purple-500 cursor-pointer hover:text-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
                       👶
                     </div>
-                    <h6 className="text-xl font-semibold">
+                    <h6 className="text-xl  font-semibold">
                       Accompagnement post-natal
                     </h6>
                   </div>
@@ -124,7 +133,10 @@ export default function Landing() {
               </a>
 
               <div className="w-full md:w-4/12 px-4 text-center">
-                <a href="#watch" className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg hover:bg-purple-500 cursor-pointer hover:text-white">
+                <a
+                  href="#watch"
+                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg hover:bg-purple-500 cursor-pointer hover:text-white"
+                >
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
                       🤒
@@ -137,7 +149,10 @@ export default function Landing() {
               </div>
 
               <div className="pt-6 w-full md:w-4/12 px-4 text-center">
-                <a href="#gyneco" className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg hover:bg-purple-500 cursor-pointer hover:text-white">
+                <a
+                  href="#gyneco"
+                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg hover:bg-purple-500 cursor-pointer hover:text-white"
+                >
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
                       🌺
@@ -152,9 +167,7 @@ export default function Landing() {
 
             <div className="flex flex-wrap items-center mt-32">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
-                <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                  Vous accompagner est un plaisir!
-                </h3>
+                <h3 className="text-3xl mb-2 font-semibold leading-normal"></h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
                   Formée à l’école de sage-femme de Limoges, ma pratique est
                   axée sur la physiologie de la naissance et le respect des
@@ -167,19 +180,27 @@ export default function Landing() {
                   gynécologique médical de la puberté à la ménopause.
                 </p>
 
+                <div className="flex flex-row justify-center">
+                  <img
+                    alt="..."
+                    src={require("assets/img/portrait.jpg")}
+                    style={{
+                      height: "200px",
+                      width: "auto",
+                    }}
+                    className="w-full align-middle rounded-lg"
+                  />
+                </div>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
                   Chaque femme est unique, avec son besoin d’écoute et de
                   confiance.
                 </p>
-                <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-                  className="font-bold text-gray-800 mt-8"
-                >
+                <a href="#where" className="font-bold text-gray-800 mt-8">
                   Où me trouver ?
                 </a>
               </div>
 
-              <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
+              <div className="w-full pt-6 lg:pt-0 md:w-4/12 px-4 mr-auto ml-auto">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
                   <img
                     alt="..."
@@ -206,7 +227,7 @@ export default function Landing() {
                       Mon cabinet vous attend
                     </h4>
                     <p className="text-md font-light mt-2 text-white">
-                      Situé au centre ville de Morcenx, mon cabinet vous accueil
+                      Situé au centre ville de Morcenx, mon cabinet vous accueille
                       toute la semaine. Alors n'hésitez pas, prenez rendez-vous.
                     </p>
                   </blockquote>
@@ -248,7 +269,10 @@ export default function Landing() {
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <div className="md:pr-12">
-                  <h3 id="follow" className="text-3xl title text-orange-600 font-semibold">
+                  <h3
+                    id="follow"
+                    className="text-3xl pt-6 lg:pt-0 title text-orange-600 font-semibold"
+                  >
                     Suivi de la grossesse
                   </h3>
                   <p className="mt-4 text-lg leading-relaxed text-gray-600">
@@ -331,7 +355,10 @@ export default function Landing() {
             <div className="items-center flex flex-wrap">
               <div className="w-full md:w-4/12 ml-auto mr-auto  px-4">
                 <div className="md:pr-12">
-                  <h3 id="watch" className="text-3xl title text-pink-600 font-semibold">
+                  <h3
+                    id="watch"
+                    className="text-3xl title text-pink-600 font-semibold"
+                  >
                     Surveillance grossesse pathologique à domicile
                   </h3>
                   <p className="mt-4 text-lg leading-relaxed text-gray-600">
@@ -345,7 +372,7 @@ export default function Landing() {
                   </p>
                 </div>
               </div>
-              <div className="w-full md:w-5/12 ml-auto  px-4">
+              <div className="w-full pt-6 lg:pt-0 md:w-5/12 ml-auto  px-4">
                 <img
                   alt="..."
                   style={{ height: "300px", width: "auto" }}
@@ -358,7 +385,7 @@ export default function Landing() {
 
           <div className="container mx-auto px-4 pt-24">
             <div className="items-center flex flex-wrap">
-              <div className="w-full md:w-5/12 ml-auto  px-4">
+              <div className="w-full lg:block hidden md:w-5/12 ml-auto  px-4">
                 <img
                   alt="..."
                   style={{ height: "300px", width: "auto" }}
@@ -368,7 +395,10 @@ export default function Landing() {
               </div>
               <div className="w-full md:w-4/12 ml-auto mr-auto  px-4">
                 <div className="md:pr-12">
-                  <h3 id="post" className="text-3xl title text-emerald-600 font-semibold">
+                  <h3
+                    id="post"
+                    className="text-3xl title text-emerald-600 font-semibold"
+                  >
                     Accompagnement post-natal
                   </h3>
                   <p className="mt-4 text-lg leading-relaxed text-gray-600">
@@ -390,7 +420,10 @@ export default function Landing() {
           <div className="container py-20 mx-auto px-4">
             <div className="items-center flex flex-wrap">
               <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
-                <h3 id="rehab" className="text-3xl text-purple-600 title font-semibold">
+                <h3
+                  id="rehab"
+                  className="text-3xl text-purple-600 title font-semibold"
+                >
                   Rééducation périnéale
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-gray-600">
@@ -408,7 +441,10 @@ export default function Landing() {
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <div className="md:pr-12">
-                  <h3 id="gyneco" className="text-3xl title text-red-600 font-semibold">
+                  <h3
+                    id="gyneco"
+                    className="text-3xl pt-6 lg:pt-0 title text-red-600 font-semibold"
+                  >
                     Consultation et suivi gynécologique
                   </h3>
                   <p className="mt-4 text-lg leading-relaxed text-gray-600">
@@ -432,11 +468,12 @@ export default function Landing() {
                       </li>
                       <li>la vaccination contre le papillomavirus humain</li>
                     </ul>
+                  </p>
                     <span className="opacity-50 mt-4">
                       <span className="mr-4 text-2xl font-bold ">?</span>À
                       savoir : les sages-femmes peuvent également prescrire,
                       délivrer et administrer des
-                      <span className="text-amber-600 opacity-100">
+                      <span className="text-amber-600 text-base opacity-100">
                         {" "}
                         contraceptifs{" "}
                       </span>
@@ -444,7 +481,6 @@ export default function Landing() {
                       obligatoire, au préalable, du consentement des titulaires
                       de l’autorité parentale.
                     </span>
-                  </p>
                 </div>
               </div>
             </div>
@@ -472,16 +508,19 @@ export default function Landing() {
             </svg>
           </div>
 
-          <div className="container flex flex-row mx-auto px-4 lg:pt-24 lg:pb-12">
+          <div
+            id="where"
+            className="container flex flex-col lg:flex-row mx-auto px-4 pt-24 lg:pb-12"
+          >
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2868.50288237563!2d-0.9117647840442428!3d44.03166637911034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54158dad78f5c7%3A0xd49ceb094db3d66f!2sMaisonnier%20carine!5e0!3m2!1sen!2sfr!4v1615735880542!5m2!1sen!2sfr"
               width="700"
               height="450"
-              style={{ border: 0 }}
-              allowfullscreen=""
+              style={{ maxWidth:"100%", border: 0 }}
+              allowfullscreen="true"
               loading="lazy"
             ></iframe>
-            <div className="flex flex-wrap text-center w-full justify-end">
+            <div className="flex flex-wrap text-center w-full pt-6 justify-end">
               <div className="w-full flex justify-center items-center flex-col mx-auto px-4">
                 <h2 className="text-2xl font-semibold text-white">
                   Pour toute information, contactez moi !
