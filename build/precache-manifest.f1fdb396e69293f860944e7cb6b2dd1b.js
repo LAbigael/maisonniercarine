@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bee6a76f811e9b7ab27ba32edb5ba9fb",
+    "revision": "d00fddecb11fca7209c3dcac9c8f2e53",
     "url": "/index.html"
   },
   {
-    "revision": "4126631704dfab429263",
+    "revision": "99855acbcf64af9a1bd7",
     "url": "/static/css/2.c9a3612c.chunk.css"
   },
   {
-    "revision": "bda4faa3c3c57e10cd58",
+    "revision": "b8467184285fb2eb0195",
     "url": "/static/css/main.77e38fcd.chunk.css"
   },
   {
-    "revision": "4126631704dfab429263",
-    "url": "/static/js/2.372e0da3.chunk.js"
+    "revision": "99855acbcf64af9a1bd7",
+    "url": "/static/js/2.b0c3edaf.chunk.js"
   },
   {
-    "revision": "bda4faa3c3c57e10cd58",
-    "url": "/static/js/main.f7e8c90b.chunk.js"
+    "revision": "b8467184285fb2eb0195",
+    "url": "/static/js/main.ecaff359.chunk.js"
   },
   {
     "revision": "b30f1b57aed2ad9c5525",
@@ -98,5 +98,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f31a4b5dc6c1e7c5ddf596677c0bae8b",
     "url": "/static/media/pexels-william-fortunato-6393191.f31a4b5d.jpg"
+  },
+  {
+    "revision": "d664b40bf60bfde009b8aa3fa124b3e3",
+    "url": "/static/media/portrait.d664b40b.jpg"
   }
 ]);
