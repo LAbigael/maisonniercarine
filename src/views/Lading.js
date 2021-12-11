@@ -337,7 +337,7 @@ export default function Landing() {
                       relaxer au maximum et pousser quand le moment sera venu.
                     </li>
                     <li>
-                      Le <span className="font-bold"> Champ prenatal</span> est
+                      Le <span className="font-bold"> chant prenatal</span> est
                       une méthode permettant aux parents de communiquer très tôt
                       avec le bébé in utero. Dans le ventre de sa mère, le bébé
                       est sensible aux sons et à la voix de ses parents. Ainsi
