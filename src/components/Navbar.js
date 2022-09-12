@@ -26,7 +26,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   target="_blank"
-                  href="https://www.doctolib.fr/sage-femme/morcenx-la-nouvelle/carine-maisonnier"
+                  href="https://www.rdvsagefemme.com/a/carine-maisonnier"
                   className={
                     (props.transparent
                       ? "bg-white text-gray-800 active:bg-gray-100"
@@ -36,7 +36,7 @@ export default function Navbar(props) {
                   type="button"
                   style={{ transition: "all .15s ease" }}
                 >
-                  <i className=""></i> Doctolib
+                  <i className=""></i> Prendre rendez-vous
                 </a>
               </li>
             </ul>
