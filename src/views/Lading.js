@@ -64,17 +64,17 @@ export default function Landing() {
           </div>
         </div>
 
-        <section className="pb-20 bg-gray-300 -mt-24">
+        <section className="pb-20 pt-32 bg-gray-300 -mt-24">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap">
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                 <a
                   href="#follow"
-                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg hover:bg-purple-500 cursor-pointer hover:text-white"
+                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg hover: cursor-pointer hover:text-white"
                 >
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
-                      🤰
+                    <div className="text-white p-3 text-center inline-flex items-center justify-center ">
+                       <img src={require("assets/img/svg/020-pregnant.svg")} alt="My Happy SVG" class="h-12"/>
                     </div>
                     <h6 className="text-xl font-semibold">
                       Suivi de grossesse
@@ -86,11 +86,11 @@ export default function Landing() {
               <div className="w-full md:w-4/12 px-4 text-center">
                 <a
                   href="#prep"
-                  className="relative flex flex-col min-w-0 hover:bg-purple-500 cursor-pointer hover:text-white break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+                  className="relative flex flex-col min-w-0 hover: cursor-pointer hover:text-white break-words bg-white w-full mb-8 shadow-lg rounded-lg"
                 >
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
-                      🏥
+                    <div className="text-white p-3 text-center inline-flex items-center justify-center  mb-5">
+                       <img src={require("assets/img/svg/022-pregnancy.svg")} alt="My Happy SVG" class="h-12" />
                     </div>
                     <h6 className="text-xl font-semibold">
                       Préparation à l'accouchement
@@ -102,11 +102,11 @@ export default function Landing() {
               <div className="pt-6 w-full md:w-4/12 px-4 text-center">
                 <a
                   href="#rehab"
-                  className="relative flex flex-col min-w-0 hover:bg-purple-500 cursor-pointer hover:text-white break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+                  className="relative flex flex-col min-w-0 hover: cursor-pointer hover:text-white break-words bg-white w-full mb-8 shadow-lg rounded-lg"
                 >
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
-                      🌱
+                    <div className="text-white p-3 text-center inline-flex items-center justify-center  mb-5">
+                       <img src={require("assets/img/svg/032-lotion.svg")} alt="My Happy SVG" class="h-12" />
                     </div>
                     <h6 className="text-xl font-semibold">
                       Rééducation périnéale
@@ -120,10 +120,10 @@ export default function Landing() {
                 href="#post"
                 className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center"
               >
-                <div className="relative flex flex-col min-w-0 break-words bg-white hover:bg-purple-500 cursor-pointer hover:text-white w-full mb-8 shadow-lg rounded-lg">
+                <div className="relative flex flex-col min-w-0 break-words bg-white hover: cursor-pointer hover:text-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
-                      👶
+                    <div className="text-white p-3 text-center inline-flex items-center justify-center  mb-5 ">
+                       <img src={require("assets/img/svg/019-footprints.svg")} alt="My Happy SVG"  class="h-12"/>
                     </div>
                     <h6 className="text-xl  font-semibold">
                       Accompagnement post-natal
@@ -135,11 +135,11 @@ export default function Landing() {
               <div className="w-full md:w-4/12 px-4 text-center">
                 <a
                   href="#watch"
-                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg hover:bg-purple-500 cursor-pointer hover:text-white"
+                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg hover: cursor-pointer hover:text-white"
                 >
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
-                      🤒
+                    <div className="text-white p-3 text-center inline-flex items-center justify-center  mb-5">
+                       <img src={require("assets/img/svg/023-ultrasound.svg")} alt="My Happy SVG" class="h-12" class="h-12"/>
                     </div>
                     <h6 className="text-xl font-semibold">
                       Surveillance grossesse pathologique à domicile
@@ -151,11 +151,11 @@ export default function Landing() {
               <div className="pt-6 w-full md:w-4/12 px-4 text-center">
                 <a
                   href="#gyneco"
-                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg hover:bg-purple-500 cursor-pointer hover:text-white"
+                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg hover: cursor-pointer hover:text-white"
                 >
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
-                      🌺
+                    <div className="text-white p-3 text-center inline-flex items-center justify-center  mb-5">
+                       <img src={require("assets/img/svg/006-pills.svg")} alt="My Happy SVG" class="h-12" class="h-12"/>
                     </div>
                     <h6 className="text-xl font-semibold">
                       Consultation et suivi gynécologique
