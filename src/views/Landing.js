@@ -33,7 +33,7 @@ export default function Landing() {
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
-                  <h1 className="text-white font-semibold text-4xl">
+                  <h1 className="text-white title font-semibold text-4xl">
                      Carine Maisonnier<br/> sage-femme libérale à Morcenx.
                   </h1>
                   <p className="mt-4 text-lg text-gray-300">
@@ -66,15 +66,17 @@ export default function Landing() {
 
         <section className="pb-20 pt-32 bg-gray-300 -mt-24">
           <div className="container mx-auto px-4">
-            <div className="flex flex-wrap">
-              <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+            <div className="flex flex-wrap w-full justify-center">
+               <div className="lg:pt-12 pt-6 w-full md:w-1/4 px-4 text-center">
                 <a
                   href="#follow"
-                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg hover: cursor-pointer hover:text-white"
+                  className="relative flex flex-col rounded-lg min-w-0 break-words bg-white w-full mb-8 shadow-lg  hover: cursor-pointer hover:shadow-xl"
                 >
-                  <div className="px-4 py-5 flex-auto">
+                   <div
+                     style={{backgroundColor:"#fec89a"}}
+                     className="px-4 py-5 flex-auto rounded-lg">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center ">
-                       <img src={require("assets/img/svg/020-pregnant.svg")} alt="My Happy SVG" class="h-12"/>
+                       <img src={require("assets/img/svg/020-pregnant.svg").default} alt="My Happy SVG" class="h-12"/>
                     </div>
                     <h6 className="text-xl font-semibold">
                       Suivi de grossesse
@@ -83,14 +85,16 @@ export default function Landing() {
                 </a>
               </div>
 
-              <div className="w-full md:w-4/12 px-4 text-center">
+              <div className="w-full md:w-1/4 px-4 text-center">
                 <a
                   href="#prep"
-                  className="relative flex flex-col min-w-0 hover: cursor-pointer hover:text-white break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+                  className="relative flex flex-col w-full min-w-0 hover:cursor-pointer hover:shadow-xl rounded-lg break-words bg-white w-full mb-8 shadow-lg "
                 >
-                  <div className="px-4 py-5 flex-auto">
+                   <div className="px-4 py-5 flex-auto w-full rounded-lg"
+style={{backgroundColor:"#f9dcc4"}}
+                >
                     <div className="text-white p-3 text-center inline-flex items-center justify-center  mb-5">
-                       <img src={require("assets/img/svg/022-pregnancy.svg")} alt="My Happy SVG" class="h-12" />
+                       <img src={require("assets/img/svg/022-pregnancy.svg").default} alt="My Happy SVG" class="h-12" />
                     </div>
                     <h6 className="text-xl font-semibold">
                       Préparation à l'accouchement
@@ -99,14 +103,14 @@ export default function Landing() {
                 </a>
               </div>
 
-              <div className="pt-6 w-full md:w-4/12 px-4 text-center">
+              <div className="pt-6 w-full md:w-1/4 px-4 text-center">
                 <a
                   href="#rehab"
-                  className="relative flex flex-col min-w-0 hover: cursor-pointer hover:text-white break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+                  className="relative flex flex-col min-w-0 w-full hover:cursor-pointer hover:shadow-xl rounded-lg break-words bg-white w-full mb-8 shadow-lg "
                 >
-                  <div className="px-4 py-5 flex-auto">
+                  <div style={{backgroundColor:"#ffb5a7"}} className="w-full px-4 py-5 flex-auto rounded-lg">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center  mb-5">
-                       <img src={require("assets/img/svg/032-lotion.svg")} alt="My Happy SVG" class="h-12" />
+                       <img src={require("assets/img/svg/032-lotion.svg").default} alt="My Happy SVG" class="h-12" />
                     </div>
                     <h6 className="text-xl font-semibold">
                       Rééducation périnéale
@@ -115,15 +119,16 @@ export default function Landing() {
                 </a>
               </div>
             </div>
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap justify-center" >
               <a
                 href="#post"
-                className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center"
+              className="lg:pt-12 pt-6 w-full md:w-1/4 px-4 text-center rounded-lg"
               >
-                <div className="relative flex flex-col min-w-0 break-words bg-white hover: cursor-pointer hover:text-white w-full mb-8 shadow-lg rounded-lg">
+                 <div
+                 style={{backgroundColor:"#ffb5a7"}} className="relative flex flex-col min-w-0 break-words bg-white hover: cursor-pointer hover:shadow-xl w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center  mb-5 ">
-                       <img src={require("assets/img/svg/019-footprints.svg")} alt="My Happy SVG"  class="h-12"/>
+                       <img src={require("assets/img/svg/019-footprints.svg").default} alt="My Happy SVG"  class="h-12"/>
                     </div>
                     <h6 className="text-xl  font-semibold">
                       Accompagnement post-natal
@@ -132,14 +137,15 @@ export default function Landing() {
                 </div>
               </a>
 
-              <div className="w-full md:w-4/12 px-4 text-center">
+              <div className="w-full md:w-1/4 px-4 text-center">
                 <a
                   href="#watch"
-                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg hover: cursor-pointer hover:text-white"
+                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 rounded-lg shadow-lg  hover: cursor-pointer hover:shadow-xl"
                 >
-                  <div className="px-4 py-5 flex-auto">
+                   <div
+                  style={{backgroundColor:"#fcd5ce"}} className="px-4 py-5 flex-auto rounded-lg">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center  mb-5">
-                       <img src={require("assets/img/svg/023-ultrasound.svg")} alt="My Happy SVG" class="h-12" class="h-12"/>
+                       <img src={require("assets/img/svg/023-ultrasound.svg").default} alt="My Happy SVG" class="h-12" class="h-12"/>
                     </div>
                     <h6 className="text-xl font-semibold">
                       Surveillance grossesse pathologique à domicile
@@ -148,14 +154,16 @@ export default function Landing() {
                 </a>
               </div>
 
-              <div className="pt-6 w-full md:w-4/12 px-4 text-center">
+              <div className="pt-6 w-full md:w-1/4 px-4 text-center">
                 <a
                   href="#gyneco"
-                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg hover: cursor-pointer hover:text-white"
+                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg  rounded-lg hover: cursor-pointer hover:shadow-xl"
                 >
-                  <div className="px-4 py-5 flex-auto">
+                   <div
+                     style={{backgroundColor:"#f8edeb"}}
+                     className="px-4 py-5 flex-auto rounded-lg">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center  mb-5">
-                       <img src={require("assets/img/svg/006-pills.svg")} alt="My Happy SVG" class="h-12" class="h-12"/>
+                       <img src={require("assets/img/svg/006-pills.svg").default} alt="My Happy SVG" class="h-12" class="h-12"/>
                     </div>
                     <h6 className="text-xl font-semibold">
                       Consultation et suivi gynécologique
@@ -166,41 +174,37 @@ export default function Landing() {
             </div>
 
             <div className="flex flex-wrap items-center mt-32">
-              <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
-                <h3 className="text-3xl mb-2 font-semibold leading-normal"></h3>
-                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-                  Formée à l’école de sage-femme de Limoges, ma pratique est
-                  axée sur la physiologie de la naissance et le respect des
-                  femmes, dans leur vie gynécologique et leur devenir mère.{" "}
-                </p>
-
-                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-                  Je vous propose un suivi semi-global, tout au long de votre
-                  grossesse et après votre accouchement. J'assure aussi le suivi
-                  gynécologique médical de la puberté à la ménopause.
-                </p>
-
-                <div className="flex flex-row justify-center">
+              <div className="w-full flex flex-col md:flex-row bg-white bg-opacity-75 md:w-7/12 pr-4 rounded-lg mr-auto ml-auto">
                   <img
                     alt="..."
                     src={require("assets/img/portrait.jpg")}
-                    style={{
-                      height: "200px",
-                      width: "auto",
-                    }}
-                    className="w-full align-middle rounded-lg"
+                    style={{  objectPosition: "60% 0%"}}
+                    className="justify-left-left mt-4 md:rounded-l-lg md:mr-5 m-auto rounded-full md:h-full h-40 w-40  md:max-h-80 object-cover"
                   />
-                </div>
-                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-                  Chaque femme est unique, avec son besoin d’écoute et de
+                     <div class="p-4">
+                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-900 ">
+                  “Formée à l’école de sage-femme de Limoges, ma pratique est
+                  axée sur la physiologie de la naissance et le respect des
+                  femmes et AFAB, dans leur vie gynécologique et leur devenir parent.{" "}
+                </p>
+
+                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-900 ">
+                  Je vous propose un suivi semi-global, tout au long de votre
+                  grossesse et après votre accouchement. J'assure aussi le suivi
+                  gynécologique médical de la puberté à la ménopause.”
+                </p>
+
+                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-600">
+                  Chaque personne est unique, avec son besoin d’écoute et de
                   confiance.
                 </p>
                 <a href="#where" className="font-bold text-gray-800 mt-8">
                   Où me trouver ?
-                </a>
+             </a>
+     </div>
               </div>
 
-              <div className="w-full pt-6 lg:pt-0 md:w-4/12 px-4 mr-auto ml-auto">
+              <div className="w-full pt-6 lg:pt-0 md:w-1/4 px-4 mr-auto ml-auto">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
                   <img
                     alt="..."
@@ -259,11 +263,11 @@ export default function Landing() {
           </div>
           <div className="container mx-auto px-4">
             <div className="items-center flex flex-wrap">
-              <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
+               <div className="w-full md:w-5/12 mr-auto px-4">
                 <img
                   alt="..."
                   style={{ height: "500px", width: "auto" }}
-                  className="max-w-full rounded-lg shadow-lg"
+                  className="max-w-full rounded-lg mx-auto shadow-lg"
                   src={require("assets/img/pexels-amina-filkins-5427243.jpg")}
                 />
               </div>
@@ -271,23 +275,24 @@ export default function Landing() {
                 <div className="md:pr-12">
                   <h3
                     id="follow"
-                    className="text-3xl pt-6 lg:pt-0 title text-orange-600 font-semibold"
+                    className="text-4xl title pt-6 lg:pt-0 font-semibold"
+                  style={{color:"#ffb5a7"}}
                   >
                     Suivi de la grossesse
                   </h3>
-                  <p className="mt-4 text-lg leading-relaxed text-gray-600">
-                    Choisir un suivi par une sage-femme libérale?
+                  <p className="mt-4  text-lg leading-relaxed text-gray-600">
+                    <span className="font-semibold">Choisir un suivi par une sage-femme libérale ?</span>
                     <br />
                     Dans le cas d’une grossesse dite « physiologique », le suivi
-                    de votre grossesse pourra se faire par une sage femme. Une
+                    de votre grossesse pourra se faire par une sage-femme. Une
                     consultation au cabinet dure 30 minutes, afin de prendre le
                     temps pour vous écouter, vous donner des conseils ou vous
                     rassurer sur les petits problèmes de la grossesse, de
                     l’accouchement et du post-accouchement.
                   </p>
 
-                  <p className="mt-4 text-lg leading-relaxed text-gray-600">
-                    Qu’est ce que le suivi global?
+                  <p className="mt-4  text-lg leading-relaxed text-gray-600">
+                    <span className="font-semibold">Qu’est ce que le suivi global ?</span>
                     <br />
                     C’est avoir le même interlocuteur pendant toute votre
                     grossesse, au cours des consultations de grossesse, pour
@@ -302,10 +307,11 @@ export default function Landing() {
           </div>
           <div className="container mt-24 mx-auto px-4">
             <div className=" flex mb-8 flex-wrap">
-              <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
+               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <h3
                   id="prep"
-                  className="text-3xl font-semibold title text-blue-600"
+                  className="text-4xl font-semibold title"
+                  style={{color:"#ffb5a7"}}
                 >
                   Préparation accouchement
                 </h3>
@@ -327,37 +333,23 @@ export default function Landing() {
                 <div className="md:pr-12">
                   <ul className="mt-4 text-lg leading-relaxed text-gray-600">
                     <li>
-                      La <span className="font-bold"> methode classique </span>
-                      également appelée aussi PPO (méthode Psycho-Prophylaxie
-                      Obstétricale), est basée sur des séquences théoriques afin
-                      de vous aider à comprendre la grossesse, l’accouchement et
-                      la vie avec un nouveau-né. Les cours sont toujours
-                      complétés par une partie pratique pour vous aider à
-                      comprendre comment respirer pendant les contractions, vous
-                      relaxer au maximum et pousser quand le moment sera venu.
-                    </li>
+                      La <span className="font-bold"> methode classique </span>, est basée sur des séquences théoriques afin de vous aider à comprendre la grossesse, l’accouchement et la vie avec un nouveau-né. Les cours sont toujours complétés par une partie pratique pour vous aider à comprendre comment respirer pendant les contractions, vous relaxer au maximum et pousser quand le moment sera venu. </li>
                     <li>
-                      Le <span className="font-bold"> chant prenatal</span> est
-                      une méthode permettant aux parents de communiquer très tôt
-                      avec le bébé in utero. Dans le ventre de sa mère, le bébé
-                      est sensible aux sons et à la voix de ses parents. Ainsi
-                      après sa naissance, le nouveau-né reconnaît des sons et
-                      des mélodies qui le mettent en confiance et en
-                      sécurité.vibrations sonores donnent force au corps, aident
-                      à soulager la douleur et ouvrent le passage au bébé
+                       Le <span className="font-bold"> chant prenatal</span> est une méthode permettant aux parents de communiquer très tôt avec le bébé in utero. Dans le ventre de sa mère, le bébé est sensible aux sons et à la voix de ses parents. Ainsi après sa naissance, le nouveau-né reconnaît des sons et des mélodies qui le mettent en confiance et en sécurité.vibrations sonores donnent force au corps, aident à soulager la douleur et ouvrent le passage au bébé 
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
-          <div className="container mx-auto px-4">
+          <div className="container mx-auto mt-24 px-4">
             <div className="items-center flex flex-wrap">
-              <div className="w-full md:w-4/12 ml-auto mr-auto  px-4">
+               <div className="w-full md:w-5/12 ml-auto mr-auto  px-4">
                 <div className="md:pr-12">
                   <h3
                     id="watch"
-                    className="text-3xl title text-pink-600 font-semibold"
+                    className="text-4xl title  font-semibold"
+                    style={{color:"#ffb5a7"}}
                   >
                     Surveillance grossesse pathologique à domicile
                   </h3>
@@ -393,11 +385,12 @@ export default function Landing() {
                   src={require("assets/img/pexels-william-fortunato-6393191.jpg")}
                 />
               </div>
-              <div className="w-full md:w-4/12 ml-auto mr-auto  px-4">
+              <div className="w-full md:w-5/12 ml-auto mr-auto  px-4">
                 <div className="md:pr-12">
                   <h3
                     id="post"
-                    className="text-3xl title text-emerald-600 font-semibold"
+                    className="text-4xl title font-semibold"
+                  style={{color:"#ffb5a7"}}
                   >
                     Accompagnement post-natal
                   </h3>
@@ -419,10 +412,11 @@ export default function Landing() {
 
           <div className="container py-20 mx-auto px-4">
             <div className="items-center flex flex-wrap">
-              <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
+               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <h3
                   id="rehab"
-                  className="text-3xl text-purple-600 title font-semibold"
+                  className="text-4xl  title font-semibold"
+                  style={{color:"#ffb5a7"}}
                 >
                   Rééducation périnéale
                 </h3>
@@ -443,7 +437,8 @@ export default function Landing() {
                 <div className="md:pr-12">
                   <h3
                     id="gyneco"
-                    className="text-3xl pt-6 lg:pt-0 title text-red-600 font-semibold"
+                    className="text-4xl pt-6 lg:pt-0 title font-semibold"
+                  style={{color:"#ffb5a7"}}
                   >
                     Consultation et suivi gynécologique
                   </h3>
@@ -487,7 +482,7 @@ export default function Landing() {
           </div>
         </section>
 
-        <section className="pb-20 relative block bg-gray-900">
+        <section className="relative block bg-gray-900">
           <div
             className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
             style={{ height: "80px", transform: "translateZ(0)" }}
@@ -510,7 +505,7 @@ export default function Landing() {
 
           <div
             id="where"
-            className="container flex flex-col lg:flex-row mx-auto px-4 pt-24 lg:pb-12"
+            className="container flex flex-col lg:flex-row mx-auto px-4 pt-8 lg:pb-12"
           >
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2868.50288237563!2d-0.9117647840442428!3d44.03166637911034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54158dad78f5c7%3A0xd49ceb094db3d66f!2sMaisonnier%20carine!5e0!3m2!1sen!2sfr!4v1615735880542!5m2!1sen!2sfr"

@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+.fimanager:before {
+    display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.flaticon-001-bathtube:before { content: "\f100"; }
+.flaticon-002-test-tubes:before { content: "\f101"; }
+.flaticon-003-rattle:before { content: "\f102"; }
+.flaticon-004-baby-bottle:before { content: "\f103"; }
+.flaticon-005-baby-book:before { content: "\f104"; }
+.flaticon-006-pills:before { content: "\f105"; }
+.flaticon-007-pacifier:before { content: "\f106"; }
+.flaticon-008-thermometer:before { content: "\f107"; }
+.flaticon-009-injection:before { content: "\f108"; }
+.flaticon-010-socks:before { content: "\f109"; }
+.flaticon-011-baby-oil:before { content: "\f10a"; }
+.flaticon-012-baby-crib:before { content: "\f10b"; }
+.flaticon-013-baby-boy:before { content: "\f10c"; }
+.flaticon-014-baby-girl:before { content: "\f10d"; }
+.flaticon-015-baby-carriage:before { content: "\f10e"; }
+.flaticon-016-boy:before { content: "\f10f"; }
+.flaticon-017-tissue-box:before { content: "\f110"; }
+.flaticon-018-mom:before { content: "\f111"; }
+.flaticon-019-footprints:before { content: "\f112"; }
+.flaticon-020-pregnant:before { content: "\f113"; }
+.flaticon-021-pregnancy:before { content: "\f114"; }
+.flaticon-022-pregnancy:before { content: "\f115"; }
+.flaticon-023-ultrasound:before { content: "\f116"; }
+.flaticon-024-balloons:before { content: "\f117"; }
+.flaticon-025-pacifier:before { content: "\f118"; }
+.flaticon-026-bib:before { content: "\f119"; }
+.flaticon-027-bib:before { content: "\f11a"; }
+.flaticon-028-rings:before { content: "\f11b"; }
+.flaticon-029-its-a-girl:before { content: "\f11c"; }
+.flaticon-030-its-a-boy:before { content: "\f11d"; }
+.flaticon-031-scale:before { content: "\f11e"; }
+.flaticon-032-lotion:before { content: "\f11f"; }
+.flaticon-033-baby-food:before { content: "\f120"; }
+.flaticon-034-gift:before { content: "\f121"; }
+.flaticon-035-baby-pin:before { content: "\f122"; }
+.flaticon-036-pregnancy-test:before { content: "\f123"; }
+.flaticon-037-clipboard:before { content: "\f124"; }
+.flaticon-038-pills:before { content: "\f125"; }
+.flaticon-039-fertilization:before { content: "\f126"; }
+.flaticon-040-diaper:before { content: "\f127"; }
+
+$font-Flaticon-001-bathtube: "\f100";
+$font-Flaticon-002-test-tubes: "\f101";
+$font-Flaticon-003-rattle: "\f102";
+$font-Flaticon-004-baby-bottle: "\f103";
+$font-Flaticon-005-baby-book: "\f104";
+$font-Flaticon-006-pills: "\f105";
+$font-Flaticon-007-pacifier: "\f106";
+$font-Flaticon-008-thermometer: "\f107";
+$font-Flaticon-009-injection: "\f108";
+$font-Flaticon-010-socks: "\f109";
+$font-Flaticon-011-baby-oil: "\f10a";
+$font-Flaticon-012-baby-crib: "\f10b";
+$font-Flaticon-013-baby-boy: "\f10c";
+$font-Flaticon-014-baby-girl: "\f10d";
+$font-Flaticon-015-baby-carriage: "\f10e";
+$font-Flaticon-016-boy: "\f10f";
+$font-Flaticon-017-tissue-box: "\f110";
+$font-Flaticon-018-mom: "\f111";
+$font-Flaticon-019-footprints: "\f112";
+$font-Flaticon-020-pregnant: "\f113";
+$font-Flaticon-021-pregnancy: "\f114";
+$font-Flaticon-022-pregnancy: "\f115";
+$font-Flaticon-023-ultrasound: "\f116";
+$font-Flaticon-024-balloons: "\f117";
+$font-Flaticon-025-pacifier: "\f118";
+$font-Flaticon-026-bib: "\f119";
+$font-Flaticon-027-bib: "\f11a";
+$font-Flaticon-028-rings: "\f11b";
+$font-Flaticon-029-its-a-girl: "\f11c";
+$font-Flaticon-030-its-a-boy: "\f11d";
+$font-Flaticon-031-scale: "\f11e";
+$font-Flaticon-032-lotion: "\f11f";
+$font-Flaticon-033-baby-food: "\f120";
+$font-Flaticon-034-gift: "\f121";
+$font-Flaticon-035-baby-pin: "\f122";
+$font-Flaticon-036-pregnancy-test: "\f123";
+$font-Flaticon-037-clipboard: "\f124";
+$font-Flaticon-038-pills: "\f125";
+$font-Flaticon-039-fertilization: "\f126";
+$font-Flaticon-040-diaper: "\f127";
