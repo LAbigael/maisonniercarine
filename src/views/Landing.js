@@ -33,7 +33,7 @@ export default function Landing() {
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
-                  <h1 className="text-white title font-semibold text-4xl">
+                  <h1 className="text-white  font-semibold text-4xl">
                      Carine Maisonnier<br/> sage-femme libérale à Morcenx.
                   </h1>
                   <p className="mt-4 text-lg text-gray-300">
@@ -58,13 +58,13 @@ export default function Landing() {
             >
               <polygon
                 className="text-gray-300 fill-current"
-                points="2560 0 2560 100 0 100"
+                points="3560 0 2560 100 0 100"
               ></polygon>
             </svg>
           </div>
         </div>
 
-        <section className="pb-20 pt-32 bg-gray-300 -mt-24">
+        <section className="pb-20  bg-gray-300 -mt-24">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap w-full justify-center">
                <div className="lg:pt-12 pt-6 w-full md:w-1/4 px-4 text-center">
@@ -179,7 +179,7 @@ style={{backgroundColor:"#f9dcc4"}}
                     alt="..."
                     src={require("assets/img/portrait.jpg")}
                     style={{  objectPosition: "60% 0%"}}
-                    className="justify-left-left mt-4 md:rounded-l-lg md:mr-5 m-auto rounded-full md:h-full h-40 w-40  md:max-h-80 object-cover"
+                    className="justify-left mt-4 md:mt-auto md:rounded-l-lg md:mr-5 m-auto rounded-full md:h-full h-40 w-40  md:max-h-90 object-cover"
                   />
                      <div class="p-4">
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-900 ">
@@ -266,7 +266,7 @@ style={{backgroundColor:"#f9dcc4"}}
                <div className="w-full md:w-5/12 mr-auto px-4">
                 <img
                   alt="..."
-                  style={{ height: "500px", width: "auto" }}
+                  style={{ height: "400px", width: "auto" }}
                   className="max-w-full rounded-lg mx-auto shadow-lg"
                   src={require("assets/img/pexels-amina-filkins-5427243.jpg")}
                 />
