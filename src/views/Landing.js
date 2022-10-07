@@ -70,7 +70,7 @@ export default function Landing() {
                <div className="lg:pt-12 pt-6 w-full md:w-1/4 px-4 text-center">
                 <a
                   href="#follow"
-                  className="relative flex flex-col rounded-lg min-w-0 break-words bg-white w-full mb-8 shadow-lg  hover: cursor-pointer hover:shadow-xl"
+                  className="relative flex flex-col rounded-lg min-w-0 break-words bg-white w-full mb-8 shadow-lg  transition-shadow hover:cursor-pointer hover:shadow-2xl"
                 >
                    <div
                      style={{backgroundColor:"#fec89a"}}
@@ -88,7 +88,7 @@ export default function Landing() {
               <div className="w-full md:w-1/4 px-4 text-center">
                 <a
                   href="#prep"
-                  className="relative flex flex-col w-full min-w-0 hover:cursor-pointer hover:shadow-xl rounded-lg break-words bg-white w-full mb-8 shadow-lg "
+                  className="relative flex flex-col w-full min-w-0 hover:cursor-pointer hover:shadow-2xl transition-shadow rounded-lg break-words bg-white w-full mb-8 shadow-lg "
                 >
                    <div className="px-4 py-5 flex-auto w-full rounded-lg"
 style={{backgroundColor:"#f9dcc4"}}
@@ -106,7 +106,7 @@ style={{backgroundColor:"#f9dcc4"}}
               <div className="pt-6 w-full md:w-1/4 px-4 text-center">
                 <a
                   href="#rehab"
-                  className="relative flex flex-col min-w-0 w-full hover:cursor-pointer hover:shadow-xl rounded-lg break-words bg-white w-full mb-8 shadow-lg "
+                  className="relative flex flex-col min-w-0 w-full hover:cursor-pointer hover:shadow-2xl transition-shadow duration-300 rounded-lg break-words bg-white w-full mb-8 shadow-lg "
                 >
                   <div style={{backgroundColor:"#ffb5a7"}} className="w-full px-4 py-5 flex-auto rounded-lg">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center  mb-5">
@@ -140,7 +140,7 @@ style={{backgroundColor:"#f9dcc4"}}
               <div className="w-full md:w-1/4 px-4 text-center">
                 <a
                   href="#watch"
-                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 rounded-lg shadow-lg  hover: cursor-pointer hover:shadow-xl"
+                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 rounded-lg shadow-lg  hover: cursor-pointer hover:shadow-2xl transition-shadow"
                 >
                    <div
                   style={{backgroundColor:"#fcd5ce"}} className="px-4 py-5 flex-auto rounded-lg">
@@ -157,7 +157,7 @@ style={{backgroundColor:"#f9dcc4"}}
               <div className="pt-6 w-full md:w-1/4 px-4 text-center">
                 <a
                   href="#gyneco"
-                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg  rounded-lg hover: cursor-pointer hover:shadow-xl"
+                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg  rounded-lg hover: cursor-pointer transition-shadow hover:shadow-2xl"
                 >
                    <div
                      style={{backgroundColor:"#f8edeb"}}
