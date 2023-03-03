@@ -30,7 +30,7 @@ export default function Navbar() {
               target="_blank"
               href="https://www.rdvsagefemme.com/a/carine-maisonnier"
               className={
-                "text-palette-green text-xs font-bold uppercase px-4 underline-offset-4 underline decoration-emerald-200 decoration-2"
+                "text-palette-green text-xs font-bold uppercase px-4 underline-offset-4 underline decoration-palette-blue decoration-2"
               }
             >
               <i className=""></i> Prendre rendez-vous

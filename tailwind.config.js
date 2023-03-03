@@ -9,10 +9,10 @@ module.exports = {
     extend: {
       colors: {
         palette: {
-          yellow: "#FDFDBD",
-          green: "#C8FFD4",
-          blue: "#B8E8FC",
-          purple: "#B1AFFF",
+          yellow: "#f3ebea",
+          green: "#FFE7CC",
+          blue: "#AEE1E1",
+          purple: "#D9ACF5",
         },
       },
     },

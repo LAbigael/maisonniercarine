@@ -14,7 +14,7 @@ const App = ({ text, button }: props) => {
 
   return (
     <>
-      <div className="z-10">
+      <div className="m-auto z-10">
         <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
@@ -83,14 +83,14 @@ const Modal = ({ handleClose, text }) => {
     <Backdrop onClick={handleClose}>
       <motion.div
         onClick={(e) => e.stopPropagation()}
-        className="modal orange-gradient"
+        className="text-justify py-8 modal orange-gradient"
         variants={dropIn}
         initial="hidden"
         animate="visible"
         exit="exit"
       >
-        <p dangerouslySetInnerHTML={{ __html: text }} />
-        <button onClick={handleClose}>Close</button>
+        <p className="text-md p-2 pt-6 lg:p-8 text-black" dangerouslySetInnerHTML={{ __html: text }} />
+        <button onClick={handleClose}>Fermer</button>
       </motion.div>
     </Backdrop>
   );
