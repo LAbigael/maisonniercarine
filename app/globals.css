@@ -142,11 +142,20 @@ a {
   font-weight: 400;
 }
 
+section {
+   @apply max-w-2xl mx-auto
+}
+section .footer {
+   @apply max-w-full 
+}
+
 h3, h2 {
   font-family: "Ogg";
 }
+
 p {
   font-family: "OggText";
+  @apply text-justify
 }
 
 button {
@@ -161,6 +170,7 @@ button {
   height: 100%;
   width: 100%;
   background: #000000e1;
+  @apply bg-opacity-5;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -168,16 +178,14 @@ button {
 }
 
 .modal {
-  width: clamp(50%, 700px, 90%);
-  height: min(50%, 300px);
-
+  height: auto;
   margin: auto;
   padding: 0 2rem;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  @apply bg-palette-green;
+  @apply bg-palette-green w-9/12 lg:w-3/12;
 }
 
 
