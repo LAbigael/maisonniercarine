@@ -25,25 +25,22 @@ const App = ({ text, button }: props) => {
         </motion.button>
       </div>
       <AnimatePresence
-        // Disable any initial animations on children that
-        // are present when the component is first rendered
         initial={false}
-        // Only render one component at a time.
-        // The exiting component will finish its exit
-        // animation before entering component is rendered
-        wait={true}
-        // Fires when all exiting nodes have completed animating out
         onExitComplete={() => null}
       >
         {modalOpen && (
-          <Modal text={text} modalOpen={modalOpen} handleClose={close} />
+          <Modal text={text} handleClose={close} />
         )}
       </AnimatePresence>
     </>
   );
 };
 
-const Backdrop = ({ children, onClick }) => {
+interface BackdropProps {
+  onClick: () => void;
+  children: React.ReactNode;
+}
+const Backdrop = ({ children, onClick }:BackdropProps) => {
   return (
     <motion.div
       onClick={onClick}
@@ -78,7 +75,11 @@ const dropIn = {
   },
 };
 
-const Modal = ({ handleClose, text }) => {
+interface ModalProps {
+  handleClose: () => void;
+  text: string;
+}
+const Modal = ({ handleClose, text }:ModalProps) => {
   return (
     <Backdrop onClick={handleClose}>
       <motion.div
