@@ -10,8 +10,8 @@ const Where = () => {
   // });
   return (
     <iframe
+      className="hidemapbar lg:w-6/12 w-full"
       src="https://www.google.com/maps/d/u/0/embed?mid=1-bHFYLQB4z9f_rWAZiLxLRlNNReYgwE&ehbc=2E312F"
-      width="1000"
       height="480"
     ></iframe>
   );

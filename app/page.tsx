@@ -65,7 +65,7 @@ export default function Landing() {
             </div>
           </div>
           <motion.svg
-            className="absolute bottom-0"
+            className="border-0 absolute bottom-0"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1440 320"
             initial="hidden"

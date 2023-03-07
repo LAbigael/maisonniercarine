@@ -50,7 +50,7 @@ line {
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
-  --gradient: linear-gradient(10deg, #C8FFD4, #b3ffc4); 
+  --gradient: linear-gradient(10deg, #c8ffd4, #b3ffc4);
   --gradient2: linear-gradient(15deg, #04ea00, #00d17d);
 }
 
@@ -120,8 +120,15 @@ a {
   }
 }
 
+.hidemapbar {
+  position: relative;
+  clip-path: polygon(0% 12%, 100% 12%, 100% 100%, 0% 100%);
+  top: -1em;
+  border: inherit;
+}
+
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -147,27 +154,28 @@ html {
 }
 
 section {
-   @apply max-w-2xl mx-auto
+  @apply max-w-2xl mx-auto;
 }
 section .footer {
-   @apply max-w-full 
+  @apply max-w-full;
 }
 
-h3, h2 {
+h3,
+h2 {
   font-family: "Ogg";
 }
 
 p {
   font-family: "OggText";
-  @apply text-justify
+  @apply text-justify;
 }
 
 button {
-  @apply mx-2 cursor-pointer font-bold rounded-full w-32 h-32
+  @apply mx-2 cursor-pointer font-bold rounded-full w-32 h-32;
 }
 
 .backdrop {
-   z-index:20;
+  z-index: 20;
   position: fixed;
   top: 0;
   left: 0;
@@ -192,7 +200,6 @@ button {
   @apply bg-palette-green w-9/12 lg:w-3/12;
 }
 
-
 .pink {
   color: #c273ff;
 }
@@ -214,4 +221,3 @@ button {
   background: var(--dark);
   color: var(--light);
 }
-

@@ -41,7 +41,7 @@ const Footer = () => (
       className="container flex flex-col lg:flex-row mx-auto px-4 pt-8 lg:pb-12 "
     >
       <Map />
-      <div className="w-full flex items-center justify-center flex-col mx-auto px-4">
+      <div className="lg:w-1/2 w-full flex items-center justify-center flex-col mx-auto px-4">
         <div>
           <h2 className="text-2xl text-center lg:text-left mt-8 lg:mt-0 font-semibold text-gray-700">
             Pour toute information, contactez moi !
